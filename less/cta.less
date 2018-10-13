@@ -1,0 +1,46 @@
+.cta {
+  padding: 8rem 3rem;
+  background-image: linear-gradient(
+    rgba(90, 98, 132, 0.75),
+    rgba(90, 98, 132, 0.75)
+  ), url(../img/cta-bg.jpg);
+  .background-center();
+  background-position: top;
+  color: #fff;
+  text-align: center;
+
+  &__box {
+    padding: 5rem;
+    background-image: linear-gradient(to right, #ee6787, #f59460);
+    max-width: 50rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+  }
+
+  &__heading {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    margin-bottom: 2rem;
+  }
+
+  &__button {
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    display: inline-block; // respects the margin setting of display:block for &__text
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.06);
+      transition: all 0.3s;
+    }
+  }
+
+  &__button:hover {
+
+  }
+}
